@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tarsbir.ecomtutorial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AskQuestion" android:parentActivityName=".MainActivity" />
+        <activity android:name=".TutorialActivity" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Program1" android:parentActivityName=".TutorialActivity" />
+        <activity android:name=".About" android:parentActivityName=".MainActivity" />
+        <activity android:name=".Program2" android:parentActivityName=".TutorialActivity" />
+        <activity android:name=".Program3" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program4" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program5" android:parentActivityName=".TutorialActivity" />
+        <activity android:name=".Program6" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program7" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program8" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program9" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program10" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program11" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program12" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program13" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program14" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program15" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program16" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program17" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program18" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program19" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program20" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program21" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program22" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program23" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program24" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program25" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program26" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program27" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program28" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program29" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program30" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program31" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program32" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program33" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program34" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program35" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program36" android:parentActivityName=".TutorialActivity"/>
+        <activity android:name=".Program37" android:parentActivityName=".TutorialActivity"/>
+    </application>
+
+</manifest>

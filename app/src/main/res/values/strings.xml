@@ -1,0 +1,262 @@
+<resources>
+    <string name="app_name">E-COM Tutorial</string>
+    <string name="Introduction">Introduction</string>
+    <string name="Tutorial">Tutorial</string>
+    <string name="output">Output</string>
+    <string name="About_tutor">About Tutor</string>
+    <string name="Ask_question">Ask Question</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_about">About</string>
+
+    <!-- Program Title -->
+    <string name="programTitle1">A Program to illustrate text Font tag and pre tag.</string>
+    <string name="programTitle2">A Program to illustrate text formatting tags.</string>
+    <string name="programTitle3">A Program to illustrate Order List tag.</string>
+    <string name="programTitle4">A Program to illustrate Unorder List tag.</string>
+    <string name="programTitle5">A Program to illustrate Nested tag.</string>
+    <string name="programTitle6">A Program to illustrate Imgage tag.</string>
+    <string name="programTitle7">A Program to illustrate Hyper Link tag (Anchor tag).</string>
+    <string name="programTitle8">A Program to illustrate link to different parts on current webpage.</string>
+    <string name="programTitle9">A Program to illustrate table with border,CellPadding,CellSpacing.</string>
+    <string name="programTitle10">A Program to illustrate table as Cell Spans two columns.</string>
+    <string name="programTitle11">A Program to illustrate table as Cell Spans two rows.</string>
+    <string name="programTitle12">A Program to illustrate Frame tag.</string>
+    <string name="programTitle13">A Program to illustrate Form tag.</string>
+    <string name="programTitle14">A Program to illustrate span tag.</string>
+    <string name="programTitle15">A Program to illustrate Embedded Multimedia.</string>
+    <string name="programTitle16">A Program to illustrate CSS (cascading style sheet) internal</string>
+    <string name="programTitle17">A Program to illustrate CSS (cascading style sheet) external.</string>
+    <string name="programTitle18">To create a Client Side Scripts for Validating Web Form Controls using DHTML.</string>
+    <string name="programTitle19">JAVA SCRIPT TO PERFORM ALL ARITHMATIC OPERATION.</string>
+    <string name="programTitle20">TO CHECK WHETHER A GIVEN NUMBER IS PRIME OR NOT.</string>
+    <string name="programTitle21">TO SEARCH AN ELEMENT IN AN ARRAY OF SIZE “N”.</string>
+    <string name="programTitle22">TO COMPUTE THE GCD OF 2 NUMBERS USING FUNCTION.</string>
+    <string name="programTitle23">TO CHECK WHETHER THE GIVEN INTEGER IS PALINDROME OR NOT.</string>
+    <string name="programTitle24">TO ILLUSTRATE DIFFERENT IN-BUILT STRING FUNCTIONS.</string>
+    <string name="programTitle25">TO FIND THE SECOND LARGEST NUMBER IN AN ARRAY.</string>
+    <string name="programTitle26">Setting up an ODBC Data Source.</string>
+    <string name="programTitle27">Connect using ODBC Data Sources.</string>
+    <string name="programTitle28">How to Create a SQL Server Database.</string>
+    <string name="programTitle29">jQuery element Selector.</string>
+    <string name="programTitle30">jQuery  #id Selector.</string>
+    <string name="programTitle31">jQuery .class Selector.</string>
+    <string name="programTitle32">jQuery Event Method : click().</string>
+    <string name="programTitle33">jQuery Effects - Hide and Show.</string>
+    <string name="programTitle34">jQuery Effects - jQuery toggle().</string>
+    <string name="programTitle35">Using AJAX: change this text program.</string>
+    <string name="programTitle36">An Example XML Document.</string>
+    <string name="programTitle37">Display XML Data in an HTML Page.</string>
+
+
+    <string name="p1"><![CDATA[<html>\n<title> Font tag Example </title>\n<body>\n<font face=\"arial\" size=\"1\" color=\"blue\"> WELCOME </font> <br>\n <font size=\"2\" color=\"cyan\"> WELCOME </font> <br>\n <pre>\n This text uses pre tag and preserves nextline and spaces\n </pre>\n </body>\n </html>]]></string>
+    <string name="p2"><![CDATA[<html>\n <head>\n <title> Text Tags </title>\n </head>\n <body>\n <center>\n <h1 align=\"center\">To illustrate text formatting tags </h1>\n <hr color=\"red\">\n <P> \n <marquee behavior=\"alternate\"> This is an alternate Marquee text </marquee>\n </P>\n <p> This is <i> italized </i> </p>\n <p> This is <u> underlined </u> </p>\n <p> This is <b> bold </b> </p>\n <p> This is <em> emphasized\n </em> </p>\n <p>This is <Strong> Strong Text\n </strong> </p>\n <p> This is <s> striked text </s> </p> \n <p> This is <code> computer code </code> </p>\n <p> This is <sup> superscript \n</sup> code </p>\n <p> This is <sub> subscript \n</sub> code </p>\n <p> This is <big> big text </big> </p>\n <p> This is <small> small text\n </small> </p>\n </center>\n </body>\n </html>]]></string>
+    <string name="p3"><![CDATA[<html>\n<head>\n<title> Order List tag </title>\n</head>\n<body>\n<h3 align=\"center\" style=\"color:red\">ORDER list tags</h3>\n<hr COLOR=\"RED\">\n<h4>Numbered list:</h4>\n<ol>\n<li>Apples</li>\n<li>Bananas</li>\n</ol>\n<h4>Uppercase Letters list:</h4>\n<ol type=\"A\">\n<li>Apples</li>\n<li>Bananas</li>\n</ol>\n<h4>Lowercase letters list:</h4>\n<ol type=\"a\">\n<li>Apples</li>\n<li>Oranges</li>\n</ol>\n<h4>Roman numbers list:</h4>\n<ol type=\"I\">\n<li>Apples</li>\n<li>Oranges</li> </ol>\n</body>\n</html>]]></string>
+    <string name="p4"><![CDATA[\n<html>\n<title> Unorder List </title>\n</head>\n<body>\n<h3 align=\"center\"> To illustrate unorder list tags </h3>\n<hr color=\"red\">\n<h4>Disc bullets list:</h4>\n<ul type=\"disc\">\n<li>Apples</li>\n<li>Bananas</li>\n<li>Lemons</li>\n</ul>\n<h4>Circle bullets list:</h4>\n<ul type=\"circle\">\n<li>Apples</li>\n<li>Bananas</li>\n<li>Lemons</li>\n</ul>\n<h4>Square bullets list:</h4>\n<ul type=\"square\">\n<li>Apples</li>\n<li>Bananas</li>\n<li>Lemons</li>\n</ul>\n</body>\n</html>]]></string>
+    <string name="p5"><![CDATA[<html>\n<head>\n<title> Nested and Definition List </title>\n</head>\n<body>\n<h3 align=\"center\">Nested and Definition List Tags </h3>\n<hr color=\"red\">\n<h4> An ordered nested List: </h4>\n<ol>\n<li> Coffee </li>\n<li> Tea</li>\n<ol type= \"a\">\n<li> Black tea </li>\n<li> Green tea </li>\n<ol type= \"i\" >\n<li> China </li>\n<li> Africa </li>\n</ol>\n</ol>\n<li> Milk </li>\n</ol>\n</body>\n</html>]]></string>
+    <string name="p6"><![CDATA[<html>\n<head>\n<title> Image Tag </title>\n</head>\n<body>\n<h3 align=\"center\" style=\"color:red\">image tags</h3> <hr>\n<p>\n<img src=\"art.jpg\" align=\"right\" height=\"100\" width=\"100\"/>\nThis image is right aligned with the text\n</p>\n<br><br><br><br><hr>\n<p>\n<img src=\"art.jpg\" align=\"left\" height=\"100\" width=\"100\"/>\nThis image is left aligned with the text\n</p>\n<br><br><br><br><hr>\nThis image is center aligned with the text.\n<img src=\"art.jpg\" align=\"middle\" height=\"100\" width=\"100\"/>\n<br><br><br><br><hr>\nThis image is bottom aligned with the text.\n<img src=\"art.jpg\" align=\"bottom\" height=\"100\" width=\"100\"/>\n<br><br><br><br><hr>\nThis image is top aligned with the text.\n<img src=\"art.jpg\" align=\"top\" height=\"100\" width=\"100\"/>\n</body>\n</html>]]></string>
+    <string name="p7"><![CDATA[<html>\n<head>\n<title> Link Tag </title>\n</head>\n<body>\n<h3 align=\"center\" style=\"color:red\">link Tags</h3> <hr>\nText as a link/hyperlink to another page : \n<a href=\"page1.html\"> Click here!!!</a>\n<hr>\nImage as a link/hyperlink :<a href=\"page1.html\">\n<img src=\"art.jpg\" width=\"32\" height=\"32\" align=\"bottom\"/></a><hr>\n<p><a href=\"https://www.facebook.com/\">Facebook link page</a></p>\n</body>\n</html>]]></string>
+    <string name="p8"><![CDATA[<html>
+\n<head>
+\n<title> Link Tag </title>
+\n</head>
+\n<body>
+\n<h3 align=\"center\" style=\"color:red\">To illustrate link Tags</h3> <hr>
+\nText as a link/hyperlink to another part
+<hr>
+\nSee Chapter
+\n<h2>Chapter 1</h2>
+\n<p><a href=\"https://www.tutorialspoint.com/cprogramming/c_pointers.htm\">/nThis chapter explains Pointers</a></p>
+\n<h2>Chapter 2</h2>
+\n<p><a href=\"https://www.tutorialspoint.com/cprogramming/c_variables.htm\">/nThis chapter explains variables</a></p>
+\n</body>
+\n</html>
+ ]]></string>
+    <string name="p9"><![CDATA[<html>
+\n<head>
+\n<title> Table tag </title>
+\n</head>
+\n<body>
+\n<center>
+\n<h4>Table with border, vertical headers, cellpadding and cellspacing</h4>
+\n<table border=\"10\" cellpadding=\"10\" cellspacing=\"10\">
+\n<tr>
+\n<th>Name</th>
+\n<th>Age</th>
+\n<th>Telephone</th>
+\n</tr>
+\n<tr>
+\n<th>Student 1</th>
+\n<td>Radha Desai</td>
+\n<td>20</td>
+\n<td>123 456 789</td>
+\n</tr>
+\n<tr>
+\n<th>Student 2</th>
+\n<td>Geetha Bharadwaj</td>
+\n<td>21</td>
+\n<td>267 891 281</td>
+\n</tr>
+\n</table>
+\n</body>
+\n</html>
+ ]]></string>
+    <string name="p10"><![CDATA[ <html>
+\n<head>
+\n<title> Table tag </title>
+\n</head>
+\n<body>
+\n<hr>
+\n<h4>Cell that spans two columns:</h4>
+\n<table border=\"1\">
+\n<tr>
+\n<th>Name</th>
+\n<th colspan=\"2\">Telephone</th>
+\n</tr>
+\n<tr>
+\n<td>Radha</td>
+\n<td>555 77 854</td>
+\n<td>555 77 855</td>
+\n</tr>
+\n</table>
+\n</body>
+\n</html>]]></string>
+    <string name="p11"><![CDATA[ <html>
+\n<head>
+\n<title> Table tag </title>
+\n</head>
+\n<body>
+\n<hr>
+\n<h4>Cell that spans two rows:</h4>
+\n<table border=\"1\">
+\n<tr>
+\n<th>First Name:</th>
+\n<td>Radha</td>
+\n</tr>
+\n<tr>
+\n<th rowspan=\"2\">Telephone:</th>
+\n<td>555 77 854</td>
+\n</tr>
+\n<tr>
+\n<td>555 77 855</td>
+\n</tr>
+\n</table>
+\n</center>
+\n</body>
+\n</html>
+]]></string>
+    <string name="p12"><![CDATA[ <html>
+\n<head>
+\n<title> Frame tag </title>
+\n</head>
+\n<frameset cols=\"20,60\">
+\n<frame src=\"f1.html\">
+\n<frame src=\"f2.html\" name=\"main\">
+\n</frameset>
+\n</frameset>
+\n</html>
+]]></string>
+    <string name="p13"><![CDATA[<html>
+\n<head>
+\n<title> form tag </title>
+\n</head>
+\n<body>
+\n<center>
+\n<h3 align=\"center\">form based tags</h3>
+\n<hr color=\"red\">
+\n<form action=\"\">
+\n<p>enter any text.<input type=\"text\" >
+\n<p>enter password.<input type=\"password\" >
+\n<p>text area to enter large text<textarea> </textarea>
+\n<p>This is a button.<input type=\"button\" Value=\"Click\" >
+\n<p><b><u>Radio Options</u></b><br>
+\n<input type=\"radio\" name=\"y\" checked> yes
+\n<input type=\"radio\" name=\"n\" checked> no </p>
+\n<p><b><u>Checkbox Options</u></b><br>
+\nSunday<input type=\"checkbox\" checked >
+\nMonday<input type=\"checkbox\" >
+\nTuesday<input type=\"checkbox\" ></p>
+\n<p><b><u>Menu driven options </u></b>
+\n<select name=\"cars\">
+\n<option value=\"volvo\">Volvo</option>
+\n<option value=\"saab\">Saab</option>
+\n</select></p>
+\n</form>
+\n</center>
+\n</body>
+\n</html>
+ ]]></string>
+    <string name="p14"><![CDATA[ <html>
+\n<head>
+\n<title> span tag </title>
+\n<style type=\"text/css\">
+\nspan.blue{ color:lightskyblue; font-weight:bold;}
+\nspan.green{ color:darkolivegreen; font-weight:bold;}
+\n</style>
+\n</head>
+\n<body>
+\n<p align=\"center\">
+\n<font size=10>
+\nmy mother has <span class=\"blue\">\n light blue </span> eyes and
+\nmy father has <span class=\"green\">\n dark green </span> eyes.
+\n</font>
+\n</p>
+\n</body>
+\n</html>]]></string>
+    <string name="p15"><![CDATA[ ]]></string>
+    <string name="p16"><![CDATA[ ]]></string>
+    <string name="p17"><![CDATA[ ]]></string>
+    <string name="p18"><![CDATA[ ]]></string>
+    <string name="p19"><![CDATA[ ]]></string>
+    <string name="p20"><![CDATA[ ]]></string>
+    <string name="p21"><![CDATA[ ]]></string>
+    <string name="p22"><![CDATA[ ]]></string>
+    <string name="p23"><![CDATA[ ]]></string>
+    <string name="p24"><![CDATA[ ]]></string>
+    <string name="p25"><![CDATA[ ]]></string>
+    <string name="p26"><![CDATA[ ]]></string>
+    <string name="p27"><![CDATA[ ]]></string>
+    <string name="p28"><![CDATA[ ]]></string>
+    <string name="p29"><![CDATA[ ]]></string>
+    <string name="p30"><![CDATA[ ]]></string>
+    <string name="p31"><![CDATA[ ]]></string>
+    <string name="p32"><![CDATA[ ]]></string>
+    <string name="p33"><![CDATA[ ]]></string>
+    <string name="p34"><![CDATA[ ]]></string>
+    <string name="p35"><![CDATA[ ]]></string>
+    <string name="p36"><![CDATA[ ]]></string>
+    <string name="p37"><![CDATA[ ]]></string>
+
+
+    <string name="page1"><![CDATA[<html>\n<head>\n<title> Page1.html </title>\n</head>\n<body>\n<h1 align=\"center\"> Hello!!! This is a new chapter </h1>\n<a href=\"home.html\"> Go to home </a>\n</body>\n</html>]]></string>
+    <string name="f1"><![CDATA[<html>
+\n<head>
+\n<title> f1.html </title>
+\n</head>
+\n<body>
+\n<h3>Click to see</h3>
+\n<a href=\"gulbarga.html\" target=\"main\"> gulbarga<br></a>
+\n<a href=\"art.jpg\" target=\"main\"> picture<br> </a>
+\n</body>
+\n</html>
+ ]]></string>
+    <string name="f2"><![CDATA[<html>
+\n<head>
+\n<title> f2.html </title>
+\n</head>
+\n<body>
+\n<h1> Click on any state to get a welcome message </h2>
+\n</body>
+\n</html>
+ ]]></string>
+    <string name="gulbarga"><![CDATA[<html>
+\n<head>
+\n<title> Gulbarga.html </title>
+\n</head>
+\n<body bgcolor=\"green\">
+\n<h1> Welcome to gulbarga </h1>
+\n</body>
+\n</html>
+ ]]></string>
+</resources>
