@@ -56,7 +56,7 @@ public class TutorialActivity extends AppCompatActivity {
         arrayList.add(new TutorialCustom("34. jQuery Effects - jQuery toggle()."));
         arrayList.add(new TutorialCustom("35. Using AJAX: change this text program."));
         arrayList.add(new TutorialCustom("36. An Example XML Document."));
-        arrayList.add(new TutorialCustom("37. Display XML Data in an HTML Page."));
+        //arrayList.add(new TutorialCustom("37. Display XML Data in an HTML Page."));
 
         myAdapter=new MyAdapter(this,arrayList);
         listView.setAdapter(myAdapter);
@@ -229,11 +229,7 @@ public class TutorialActivity extends AppCompatActivity {
                 }if(pos==35){
                     Intent p36 = new Intent(getApplicationContext(),Program36.class);
                     startActivity(p36);
-                    return;
-                }if(pos==36){
-                    Intent p37 = new Intent(getApplicationContext(),Program37.class);
-                    startActivity(p37);
-                }   else
+                } else
                     Toast.makeText(getApplicationContext(),"Try Again",Toast.LENGTH_LONG).show();
 
             }

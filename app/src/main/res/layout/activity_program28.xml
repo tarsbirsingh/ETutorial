@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -15,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:text="@string/programTitle1"
+            android:text="@string/programTitle28"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -25,22 +24,87 @@
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
             android:textSize="18sp"
-            android:text="@string/p1" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Output"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:textStyle="bold"
-            android:textSize="22sp"/>
+            android:text="@string/p28_1" />
 
         <ImageView
             android:layout_width="350dp"
-            android:scaleType="fitXY"
-            android:layout_height="200dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/img"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p28" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/p28_2"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/img"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p28a" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/p28_3"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/img"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/p28b" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/p28_4"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_height="250dp"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/img"
+            android:layout_marginTop="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p28c" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/p28_5"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
             android:layout_marginTop="5dp"
             android:layout_gravity="center"
-            android:src="@drawable/p1new" />
+            android:contentDescription="@string/img"
+            android:scaleType="fitCenter"
+            android:src="@drawable/p28d" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/p28_6"
+            android:textSize="18sp" />
+
     </LinearLayout>
 </ScrollView>

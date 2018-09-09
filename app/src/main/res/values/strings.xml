@@ -6,7 +6,7 @@
     <string name="About_tutor">About Tutor</string>
     <string name="Ask_question">Ask Question</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!--   text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_about">About</string>
 
@@ -420,22 +420,335 @@
 \n</form>
 \n</body>
 \n</html> ]]></string>
-    <string name="p22"><![CDATA[ ]]></string>
-    <string name="p23"><![CDATA[ ]]></string>
-    <string name="p24"><![CDATA[ ]]></string>
-    <string name="p25"><![CDATA[ ]]></string>
-    <string name="p26"><![CDATA[ ]]></string>
-    <string name="p27"><![CDATA[ ]]></string>
+    <string name="p22"><![CDATA[<html>
+\n<head>
+\n<script type=\"text/javascript\">
+\nfunction gcd()
+\n{
+\nvar x,y;
+\nx=parseInt(document.myform.n1.value);
+\ny=parseInt(document.myform.n2.value);
+\nwhile(x!=y)
+\n{
+\nif(x>y)
+\nx=x-y;
+\nelse
+\ny=y-x;\n
+}
+\ndocument.myform.result.value=x;
+\n}
+\n</script>
+\n</head>
+\n<body>
+\n<h1 align=\"center\"> Program to calculate gcd of two numbers </h1>
+\n<hr color=\"red\">
+\n<center>
+\nEnter two numbers :
+\n<form name=\"myform\">
+\nNumber 1 : <input type=\"text\" name=\"n1\" value=\"\"> <br> <br>
+\nNumber 2 : <input type=\"text\" name=\"n2\" value=\"\"> <br> <br>
+\n<input type=\"button\" value=\"Get GCD\" onClick=\"gcd()\"> <br> <br>
+\nGCD is : <input type=\"text\" name=\"result\" value=\"\">
+\n</form>
+\n</body>
+\n</html>
+ ]]></string>
+    <string name="p23"><![CDATA[ <html>
+\n<head>
+\n<script type=\"text/javascript\">
+\nfunction isPalindrome()
+\n{
+\nvar num=document.frm.text1.value;
+\nif(num == \"\")
+\n{
+\nalert(\"Please enter the number\");
+\n}
+\nelse
+\n{
+\nvar digit;
+\nvar rev = 0;
+\nvar n = num;
+\nwhile (num!=0)
+\n{
+\ndigit = num % 10;
+\nrev = (rev * 10) + digit;
+\n num = num / 10;
+\n num = parseInt(num);
+\n}
+\nif( n == rev)
+\nalert(\" Integer is palindrome \");
+\nelse
+\nalert(\" Integer is not palindrome \");
+\ndocument.frm.text1.value=\"\";
+\n}
+\n}
+\n</script>
+\n</head>
+\n<body>
+\n<form name=\"frm\">
+\n<h1 align=\"center\">To check whether a number is palindrome or not</h1>
+\n<hr color=\"red\">
+\n<center>
+\nEnter a number:
+\n<input type=\"text\" name=\"text1\"> <br><br>
+\n<input type=\"button\" value=\"Check Palindrome\" onclick=\"isPalindrome\n()\\">
+\n</center>
+\n</form>
+\n</body>
+\n</html>
+]]></string>
+    <string name="p24"><![CDATA[ <html>
+\n<body>
+\n<script type=\"text/javascript\">
+\n var str=\"Hello World\";
+\ndocument.write(\"<center>\");
+\ndocument.write(\"<h1> Example for String Functions </h1> \");
+\ndocument.write(\"<hr color=red>\");
+\ndocument.write(str.big()+\"<br>\");
+\ndocument.write(str.small()+\"<br>\");
+\ndocument.write(str.bold()+\"<br>\");
+\ndocument.write(str.italics()+\"<br>\");
+\ndocument.write(str.fixed()+\"<br>\");
+\ndocument.write(str.strike()+\"<br>\");
+\ndocument.write(str.sup()+\"<br>\");
+\ndocument.write(str.sub()+\"<br>\");
+\ndocument.write(str.blink()+\"<br>\");
+\ndocument.write(str.link(\"p1.html\")+\"<br>\");
+\ndocument.write(str.fontcolor(\"green\")+\"<br>\");
+\ndocument.write(str.fontsize(6)+\"<br>\");
+\ndocument.write(\"</center>\");
+\n</script>
+\n</body>
+\n</html>
+]]></string>
+    <string name="p25"><![CDATA[ <html>
+\n<head>
+\n<script type=\"text/javascript\">
+\nfunction show_prompt()
+\n{
+\nvar n=document.frm.text1.value;
+\nif( n == \"\")
+\n{
+\nalert(\"Please enter the array size\");
+\n}
+\nelse
+\n{
+\nvar a=new Array();
+\nvar temp;
+\nfor(i=0;i<n;i++)
+\n{
+\nvar num=prompt(\"Please enter a number\",\" \");
+\n document.frm.arrayTxt.value=document.frm.arrayTxt.value+num+\"\";
+\na[i]=parseInt(num);
+\n}
+\nvar large=a[0]; for(i=1;i<n;i++) if(a[i]>large) large=a[i];
+\nvar slarge=a[0]; for(i=1;i<n;i++) if(a[i]>slarge && a[i]!=large)
+\nslarge=a[i];
+\nalert(\"The second largest element in the given array is \"+slarge);
+\ndocument.frm.text1.value=\"\";
+\ndocument.frm.arrayTxt.value=\"\";
+\n}
+\n}
+\n</script>
+\n</head>
+\n<body>
+\n<form name=\"frm\">
+\n<center>
+\n<h1>To find second largest element in a given array </h1>
+\n<hr color=\”red\”>
+\nEnter the array size : <input type=\"text\" name=\"text1\"><br><br>
+\n<input type=\"button\" onClick=\"show_prompt()\" value=\"Submit\"> <br><br>
+\n<textarea name=\"arrayTxt\" rows=\"4\" cols=\"4\">\n</textarea><br>
+\n</center>
+\n</form>
+\n</body>
+\n</html>]]></string>
+    <string name="p26"><![CDATA[ Step 1: First, find the icon labeled Data Sources in the Administrative Tools folder in Control Panel.  (In Windows 98, it will be labeled ODBC Data Sources (32 bit) and will be present in the Control Panel.)
+\n\nStep 2: Click on the Data Sources Icon to start the setup process.  This will produce a window where we can add ODBC data sources.  If the System DSN tab is not selected, select it.  To add a data source, click the Add… button.
+\n\nStep 3: After clicking the Add button, a list of drivers will be presented which are used to create the data source.  Scroll down until you find the driver for the database to be accessed.  (In this case, SQL Server.)
+\n\nStep 4: In this case, we\'ll select SQL Server as the driver to use because we\'ll be connecting to a SQL Server database.  After selecting SQL Server from the list above, click the Finish button to specify how the connection will be made to the SQL Server database.
+\n\nStep 5: In order to make the connection to the database, the Name, Description, and Server name have to be specified.  (NOTE:  These values will be obtained from the database administrator.)  After entering the connection details, click the Next> button to specify how the database server will verify the authenticity of the login ID.
+\n\nStep 6: Now select the bottom radio button (With SQL Server authentication using) as the method used to authenticate.  Use the Login ID and Password obtained from the database administrator and then click the Next> button.  This will open a window to allow specification of the default database.
+\n\nStep 7: Check the checkbox next to "Change the default database to" and select the database as given by the database administrator.  Click the Next> button to open the next window.
+\n\nStep 8: When the window opens, just accept the defaults and click the Finish button.  This will produce another window with a summary of the settings for the data source.
+\n\nStep 9: Test the data source by clicking the Test Data Source button.  If everything works as expected, then the results window will appear.
+\n\nStep 10: When the test has been completed successfully, just click the OK button to close the window.  The ODBC data source has been successfully created.
+]]></string>
+    <string name="p27"><![CDATA[ Step 1: Once an ODBC data source has been created, it can be used by other programs (Access, PowerBuilder, etc) to gain access to database servers.  In Microsoft Access, go to the File menu and select Get External Data and choose Link Tables… from the resulting menu.
+\n\nStep 2: This action will produce a window which will allow you to choose the database with which to link.  For ODBC database, chooseODBC Databases from the Link window.
+\n\nStep 3: After choosing ODBC Databases, the Select Data Source window will open with a list of data sources.  Select the Machine Data Source tab to view installed data sources.  Select the data source to be used from this list.
+\n\nStep 4: When the appropriate data source is selected, click the OK button to connect to the database server.  A login prompt will appear and the login information supplied will be used here.
+\n\nStep 5: After successfully connecting to the database server (using a correct Login ID and Password), the Link Tables window will appear with a list of the tables available to choose from.  Select the tables to which you have access and click OK to start opening your tables.
+\n\nStep 6: The selected tables are now available through Microsoft Access.
+]]></string>
     <string name="p28"><![CDATA[ ]]></string>
-    <string name="p29"><![CDATA[ ]]></string>
-    <string name="p30"><![CDATA[ ]]></string>
-    <string name="p31"><![CDATA[ ]]></string>
-    <string name="p32"><![CDATA[ ]]></string>
-    <string name="p33"><![CDATA[ ]]></string>
-    <string name="p34"><![CDATA[ ]]></string>
-    <string name="p35"><![CDATA[ ]]></string>
-    <string name="p36"><![CDATA[ ]]></string>
-    <string name="p37"><![CDATA[ ]]></string>
+    <string name="p29"><![CDATA[ <!DOCTYPE html>
+\n<html>
+\n<head>
+\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
+\n</script>
+\n<script>
+\n$(document).ready(function(){
+  \n$(\"button\").click(function(){
+    \n$(\"p\").hide();
+  \n});
+\n});
+\n</script>
+\n</head>
+\n<body>
+\n<h2>This is a heading</h2>
+\n<p>This is a paragraph.</p>
+\n<p>This is another paragraph.</p>
+\n<button>Click me</button>
+\n</body>
+\n</html>
+]]></string>
+    <string name="p30"><![CDATA[ <!DOCTYPE html>
+\n<html>
+\n<head>
+\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
+\n</script>
+\n<script>
+\n$(document).ready(function(){
+  \n$("button").click(function(){
+    \n$("#test").hide();
+  \n});
+\n});
+\n</script>
+\n</head>
+\n<body>
+\n<h2>This is a heading</h2>
+\n<p>This is a paragraph.</p>
+\n<p id=\"test\">This is another paragraph.</p>
+\n<button>Click me</button>
+\n</body>
+\n</html>
+]]></string>
+    <string name="p31"><![CDATA[ <!DOCTYPE html>
+\n<html>
+\n<head>
+\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
+\n</script>
+\n<script>
+\n$(document).ready(function(){
+  \n$(\"button\").click(function(){
+    \n$(\".test\").hide();
+  \n});
+\n});
+\n</script>
+\n</head>
+\n<body>
+\n<h2 class=\"test\">This is a heading</h2>
+\n<p class=\"test\">This is a paragraph.</p>
+\n<p>This is another paragraph.</p>
+\n<button>Click me</button>
+\n</body>
+\n</html>
+]]></string>
+    <string name="p32"><![CDATA[ <!DOCTYPE html>
+\n<html>
+\n<head>
+\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
+\n</script>
+\n<script>
+\n$(document).ready(function(){
+  \n$(\"p\").click(function(){
+    \n$(this).hide();
+  \n});
+\n});
+\n</script>
+\n</head>
+\n<body>
+\n<p>If you click on me, I will disappear.</p>
+\n<p>Click me away!</p>
+\n<p>Click me too!</p>
+\n</body>
+\n</html>
+]]></string>
+    <string name="p33"><![CDATA[<!DOCTYPE html>
+\n<html>
+\n<head>
+\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
+\n</script>
+\n<script>
+\n$(document).ready(function(){
+  \n$(\"#hide\").click(function(){
+    \n$(\"p\").hide();
+  \n});
+  \n$(\"#show\").click(function(){
+    \n$(\"p\").show();
+  \n});
+\n});
+\n</script>
+\n</head>
+\n<body>
+\n<p>If you click on the \"Hide\" button, I will disappear.</p>
+\n<button id=\"hide\">Hide</button>
+\n<button id=\"show\">Show</button>
+\n</body>
+\n</html>
+ ]]></string>
+    <string name="p34"><![CDATA[ <!DOCTYPE html>
+\n<html>
+\n<head>
+\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
+\n</script>
+\n<script>
+\n$(document).ready(function(){
+  \n$(\"button\").click(function(){
+    \n$(\"p\").toggle();
+  \n});
+\n});
+\n</script>
+\n</head>
+\n<body>
+\n<button>Toggle</button>
+\n<p>This is a paragraph with little content.</p>
+\n<p>This is another small paragraph.</p>
+\n</body>
+\n</html>
+]]></string>
+    <string name="p35"><![CDATA[<!DOCTYPE html>
+\n<html>
+\n<head>
+\n<script>
+\nfunction loadXMLDoc()
+\n{
+\nvar xmlhttp;
+\nif (window.XMLHttpRequest)
+  \n{// code for IE7+, Firefox, Chrome, Opera, Safari
+  \nxmlhttp=new XMLHttpRequest();
+  \n}
+\nelse
+  \n{// code for IE6, IE5
+  \nxmlhttp=new ActiveXObject(\"Microsoft.XMLHTTP\");
+  \n}
+\nxmlhttp.onreadystatechange=function()
+  \n{
+  \nif (xmlhttp.readyState==4 && xmlhttp.status==200)
+    \n{
+    \ndocument.getElementById(\"myDiv\").innerHTML=xmlhttp.responseText;
+    \n}
+  \n}
+\nxmlhttp.open(\"GET\",\"ajax_info.txt\",true);
+\nxmlhttp.send();
+\n}
+\n</script>
+\n</head>
+\n<body>
+\n<div id=\"myDiv\">
+\n<h2>Let AJAX change this text</h2></div>
+\n<button type=\"button\" onclick=\"loadXMLDoc()\">Change Content</button>
+\n</body>
+\n</html> ]]></string>
+    <string name="p36"><![CDATA[<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>
+\n<note>
+\n  <to>Tove</to>
+  \n<from>Jani</from>
+  \n<heading>Reminder</heading>
+  \n<body>Don\'t forget me this weekend!</body>
+\n</note>
+ ]]></string>
 
 
     <string name="page1"><![CDATA[<html>\n<head>\n<title> Page1.html </title>\n</head>\n<body>\n<h1 align=\"center\"> Hello!!! This is a new chapter </h1>\n<a href=\"home.html\"> Go to home </a>\n</body>\n</html>]]></string>
@@ -473,5 +786,15 @@
 /n p.importantstuff { font-size: 1.5em; text-align: center; }
 /n p.importantstuff#lookhere { font-size: 2em; text-align: right; color: blue; }
  ]]></string>
-    <string name="p367"><![CDATA[ ]]></string>
+    <string name="p282">h</string>
+
+    <string name="p28_1">Steps 1 Launch Visual Studio.\n2 Click on View</string>
+    <string name="p28_2">3 Right-Click where it says "Data Connections" and select "Create New SQL Server Database".</string>
+    <string name="p28_3">4 Enter ".\SQLEXPRESS" for the server name if you are using SQL Server Express. Otherwise, use any name.</string>
+    <string name="p28_4">5 Verify that "Use Windows Authentication" radio button is checked.</string>
+    <string name="p28_5">6 Click on "OK".</string>
+    <string name="p28_6">7 Add data into the tables and you\'re away.</string>
+    <string name="img">image</string>
+
+
 </resources>

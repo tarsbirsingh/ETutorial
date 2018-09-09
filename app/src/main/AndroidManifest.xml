@@ -55,7 +55,6 @@
         <activity android:name=".Program34" android:parentActivityName=".TutorialActivity"/>
         <activity android:name=".Program35" android:parentActivityName=".TutorialActivity"/>
         <activity android:name=".Program36" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program37" android:parentActivityName=".TutorialActivity"/>
     </application>
 
 </manifest>

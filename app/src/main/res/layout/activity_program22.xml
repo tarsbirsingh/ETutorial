@@ -35,11 +35,12 @@
             android:textSize="22sp"/>
 
         <ImageView
+            android:contentDescription="@string/img"
             android:layout_width="350dp"
             android:scaleType="fitXY"
             android:layout_height="200dp"
             android:layout_marginTop="5dp"
             android:layout_gravity="center"
-            android:src="@drawable/p1new" />
+            android:src="@drawable/p22" />
     </LinearLayout>
 </ScrollView>
