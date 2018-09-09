@@ -204,13 +204,222 @@
 \n</p>
 \n</body>
 \n</html>]]></string>
-    <string name="p15"><![CDATA[ ]]></string>
-    <string name="p16"><![CDATA[ ]]></string>
-    <string name="p17"><![CDATA[ ]]></string>
-    <string name="p18"><![CDATA[ ]]></string>
-    <string name="p19"><![CDATA[ ]]></string>
-    <string name="p20"><![CDATA[ ]]></string>
-    <string name="p21"><![CDATA[ ]]></string>
+    <string name="p15"><![CDATA[<html>
+\n<head>
+\n<title> embedding multimedia </title>
+\n</head>
+\n<body>
+\n<center>
+\n<h1> Here is a video embedded on this webpage </h1>
+\n<br>The Batle of Saragarhi
+<br>
+\n<video width=\"320\" height=\"240\" controls>
+\n<source src=\"b.mp4\" type=\"video/mp4\">
+\nYour browser does not support the video tag.
+\n</video>
+\n</object>
+\n</center>
+\n</body>
+\n</html>
+ ]]></string>
+    <string name="p16"><![CDATA[<html>
+\n<head>
+\n<title> css demo </title>
+\n<style type=\"text/css\">
+\nbody { background-color:red;}
+\nh1 { color:orange; text-align:center;}
+\np { font-family: \"Times new roman \"; font-size: 20px;}
+\n</style>
+\n</head>
+\n<body>
+\n<h1> CSS EXAMPLE </h1>
+\n<p> This is a paragraph </p>
+\n</body>
+\n</html> ]]></string>
+    <string name="p17"><![CDATA[<html>
+\n<head>
+\n<title>Learning HTML</title>
+\n<link rel=\"stylesheet\" type=\"text/css\" href=\"exstyle1.css\" />
+\n</head>
+\n<body class=\"prettycolor\">
+\n<p>Woo hoo Im learning HTML</p>
+\n<p class=\"importantstuff\">Woo hoo I'm learning HTML</p>
+\n<p class=\"importantstuff\" id=\"lookhere\">Woo hoo! I'm learning HTML!</p>
+\n<p class=\"importantstuff\">Woo hoo! I'm learning HTML!</p>
+\n</body>
+\n</html>
+ ]]></string>
+    <string name="p18"><![CDATA[<html>
+\n<head>
+\n<title>A Simple Form with JavaScript Validation</title>
+\n<script type=\"text/javascript\">
+\n<!\u2014
+\nfunction validate_form ( )
+\n{
+\nvalid = true;
+\nif ( document.contact_form.contact_name.value == \"\" )
+\n{
+\nalert ( "Please fill in the 'Your Name' box." );
+\nvalid = false;
+\n}
+\nreturn valid;
+\n}
+\n//\u2014>
+\n</script>
+\n</head>
+\n<body bgcolor=\"#FFFFFF\">
+\n<form name=\"contact_form\" method=\"post\"
+\naction=\"/cgi-bin/articles/development/javascript/form-validation-with-javascript/contact_simple.cgi\"
+\nonSubmit=\"return validate_form ( );\">
+\n<h1>Please Enter Your Name</h1>
+\n<p>Your Name: <input type=\"text\" name=\"contact_name\"></p>
+\n<p><input type=\"submit\" name=\"send\" value=\"Send Details\"></p>
+\n</form>
+\n</body>
+\n</html>
+ ]]></string>
+    <string name="p19"><![CDATA[<html>
+\n<head>
+\n<title> Arithmatic Operation </title>
+\n<script type=\"text/javascript\">
+\nvar n1,n2,r;
+\nfunction add()
+\n{
+\n n1=document.myform.n1.value;
+\n n2=document.myform.n2.value;
+\n n1=parseFloat(n1);
+\n n2=parseFloat(n2);
+\n r=n1+n2;
+\ndocument.myform.result.value=r;
+\n}
+\nfunction sub()
+\n{
+\n n1=document.myform.n1.value;
+\n n2=document.myform.n2.value;
+\n n1=parseFloat(n1);
+\n vn2=parseFloat(n2);
+\n r=n1-n2;
+\n document.myform.result.value=r;
+\n}
+\nfunction mul()
+\n{
+\n n1=document.myform.n1.value;
+\n n2=document.myform.n2.value;
+\n n1=parseFloat(n1);
+\n n2=parseFloat(n2);
+\n r=n1*n2;
+\n document.myform.result.value=r;
+\n}
+\nfunction divide()
+\n{
+\n n1=document.myform.n1.value;
+\n n2=document.myform.n2.value;
+\n n1=parseFloat(n1);
+\n n2=parseFloat(n2);
+\n r=n1/n2;
+\n document.myform.result.value=r;
+\n }
+\n</script>
+\n</head>
+\n<body>
+\n <form name=\"myform\">
+\n<h1 align=\"center\"> Arithmatic Operations</h1>
+\n<hr color=\"red\">
+\n<center><u>Enter a number in each text box </u><br><br>
+\n Number 1:<input type=\"text\" name=\"n1\" value=\"\"> <br><br>
+\n Number 2:<input type=\"text\" name=\"n2\" value=\"\"> <br><br>
+\n <input type=\"button\" value=\"Add\" onClick=\"add()\">
+\n <input type=\"button\" value=\"Subtract\" onClick=\"sub()\">
+\n <input type=\"button\" value=\"Multiply\" onClick=\"mul()\" >
+\n <input type=\"button\" value=\"Divide\" onClick=\"divide()\"><br><br>
+\n <font color=\"red\">Result is:
+\n <input type=\"text\" name=\"result\" value=\"\"></center>
+\n </font>
+\n</form>
+\n</body>
+\n</html> ]]></string>
+    <string name="p20"><![CDATA[<html>
+\n<head>
+\n<title> To check for a prime number </title>
+\n<script type=\"text/javascript\">
+\nfunction p()\n
+{
+\nvar n,i,flag=true;
+\nn=document.myform.n.value;
+\n n=parseInt(n)
+\nfor(i=2;i<=n-1;i++)
+\nif(n%i==0)
+\n{
+\nflag=false;
+\nbreak;
+\n}
+\nif(flag==true)
+\nalert(n + \" is prime\");
+\nelse
+\nalert(n + \" is not prime\");
+\n}
+\n</script>
+\n</head>
+\n<body>
+\n<center>
+\n<h1> To check whether a given number is prime or not </h1>
+\n<hr color=\"red\">
+\n<form name=\"myform\">
+\nEnter the number: <input type=\"text\" name=n value=\"\"><br><br>
+\n<input type=\"button\" value=\"Check\" onClick=\"p()\"><br>
+\n</center>
+\n</form>
+\n</body>
+\n</html> ]]></string>
+    <string name="p21"><![CDATA[<html>
+\n<head>
+\n<script type=\"text/javascript\">
+\nfunction show_prompt()
+\n{
+\nvar n=document.frm.text1.value;
+\nif( n == \"\")
+\n{
+\n alert(\"Please enter the array size\");
+\n}
+\nelse
+\n{
+\nvar a=new Array();
+\nvar temp;
+\nfor(i=0;i<n;i++)
+\n{
+\nvar num=prompt(\"Please enter a number\",\" \");
+\ndocument.frm.arrayTxt.value=document.frm.arrayTxt.value+num+\"\n\";
+\na[i]=parseInt(num);
+\n}
+\nvar flag=0;
+\nvar search=prompt(\"Enter the element to be searched \",\"\");
+\nfor(i=0;i<n;i++)
+\nif(a[i]==search)
+\n{
+\nflag=1;
+\np=i+1;
+\n}
+\nif(flag==1)
+\nalert(\"Element \" + search + \" found at position \" +p);
+\nelse
+\nalert(\"Sorry!, Element \" + search + \" not found \");
+\ndocument.frm.text1.value=\"\";
+\ndocument.frm.arrayTxt.value=\"\";
+\n}
+\n}
+\n</script>
+\n</head>
+\n<body> <form name=\"frm\">
+\n<center>
+\n<h3>To find an element in a given array </h3>
+\n<hr color=\"red\">
+\nEnter the array size : <input type=\"text\" name=\"text1\"><br><br>
+\n<input type=\"button\" onclick=\"show_prompt()\" value=\"Submit\"> <br><br>
+\n<textarea name=\"arrayTxt\" rows=\"2\" cols=\"2\">\n</textarea><br>
+\n</center>
+\n</form>
+\n</body>
+\n</html> ]]></string>
     <string name="p22"><![CDATA[ ]]></string>
     <string name="p23"><![CDATA[ ]]></string>
     <string name="p24"><![CDATA[ ]]></string>
@@ -259,4 +468,10 @@
 \n</body>
 \n</html>
  ]]></string>
+    <string name="exstyle1.css"><![CDATA[body { background-color: yellow; }
+/n p { color: white; }
+/n p.importantstuff { font-size: 1.5em; text-align: center; }
+/n p.importantstuff#lookhere { font-size: 2em; text-align: right; color: blue; }
+ ]]></string>
+    <string name="p367"><![CDATA[ ]]></string>
 </resources>
