@@ -45,18 +45,6 @@ public class TutorialActivity extends AppCompatActivity {
         arrayList.add(new TutorialCustom("23. TO CHECK WHETHER THE GIVEN INTEGER IS PALINDROME OR NOT."));
         arrayList.add(new TutorialCustom("24. TO ILLUSTRATE DIFFERENT IN-BUILT STRING FUNCTIONS."));
         arrayList.add(new TutorialCustom("25. TO FIND THE SECOND LARGEST NUMBER IN AN ARRAY."));
-        arrayList.add(new TutorialCustom("26. Setting up an ODBC Data Source."));
-        arrayList.add(new TutorialCustom("27. Connect using ODBC Data Sources."));
-        arrayList.add(new TutorialCustom("28. How to Create a SQL Server Database."));
-        arrayList.add(new TutorialCustom("29. jQuery element Selector."));
-        arrayList.add(new TutorialCustom("30. jQuery  #id Selector."));
-        arrayList.add(new TutorialCustom("31. jQuery .class Selector."));
-        arrayList.add(new TutorialCustom("32. jQuery Event Method : click()."));
-        arrayList.add(new TutorialCustom("33. jQuery Effects - Hide and Show."));
-        arrayList.add(new TutorialCustom("34. jQuery Effects - jQuery toggle()."));
-        arrayList.add(new TutorialCustom("35. Using AJAX: change this text program."));
-        arrayList.add(new TutorialCustom("36. An Example XML Document."));
-        //arrayList.add(new TutorialCustom("37. Display XML Data in an HTML Page."));
 
         myAdapter=new MyAdapter(this,arrayList);
         listView.setAdapter(myAdapter);
@@ -184,51 +172,6 @@ public class TutorialActivity extends AppCompatActivity {
                 }if(pos==24){
                     Intent p25 = new Intent(getApplicationContext(),Program25.class);
                     startActivity(p25);
-                    return;
-                }if(pos==25){
-                    Intent p26 = new Intent(getApplicationContext(),Program26.class);
-                    startActivity(p26);
-                    return;
-                }if(pos==26){
-                    Intent p27 = new Intent(getApplicationContext(),Program27.class);
-                    startActivity(p27);
-                    return;
-                }if(pos==27){
-                    Intent p28 = new Intent(getApplicationContext(),Program28.class);
-                    startActivity(p28);
-                    return;
-                }if(pos==28){
-                    Intent p29 = new Intent(getApplicationContext(),Program29.class);
-                    startActivity(p29);
-                    return;
-                }if(pos==29){
-                    Intent p30 = new Intent(getApplicationContext(),Program30.class);
-                    startActivity(p30);
-                    return;
-                }if(pos==30){
-                    Intent p31 = new Intent(getApplicationContext(),Program31.class);
-                    startActivity(p31);
-                    return;
-                }
-                if(pos==31){
-                    Intent p32 = new Intent(getApplicationContext(),Program32.class);
-                    startActivity(p32);
-                    return;
-                }if(pos==32){
-                    Intent p33 = new Intent(getApplicationContext(),Program33.class);
-                    startActivity(p33);
-                    return;
-                }if(pos==33){
-                    Intent p34 = new Intent(getApplicationContext(),Program34.class);
-                    startActivity(p34);
-                    return;
-                }if(pos==34){
-                    Intent p35 = new Intent(getApplicationContext(),Program35.class);
-                    startActivity(p35);
-                    return;
-                }if(pos==35){
-                    Intent p36 = new Intent(getApplicationContext(),Program36.class);
-                    startActivity(p36);
                 } else
                     Toast.makeText(getApplicationContext(),"Try Again",Toast.LENGTH_LONG).show();
 

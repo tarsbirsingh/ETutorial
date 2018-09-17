@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/lg"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/lg"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -44,17 +44,7 @@
         <activity android:name=".Program23" android:parentActivityName=".TutorialActivity"/>
         <activity android:name=".Program24" android:parentActivityName=".TutorialActivity"/>
         <activity android:name=".Program25" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program26" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program27" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program28" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program29" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program30" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program31" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program32" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program33" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program34" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program35" android:parentActivityName=".TutorialActivity"/>
-        <activity android:name=".Program36" android:parentActivityName=".TutorialActivity"/>
+
     </application>
 
 </manifest>

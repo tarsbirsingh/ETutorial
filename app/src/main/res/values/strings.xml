@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">E-COM Tutorial</string>
+    <string name="app_name">HTML Tutorial</string>
     <string name="Introduction">Introduction</string>
     <string name="Tutorial">Tutorial</string>
     <string name="output">Output</string>
@@ -36,18 +36,6 @@
     <string name="programTitle23">TO CHECK WHETHER THE GIVEN INTEGER IS PALINDROME OR NOT.</string>
     <string name="programTitle24">TO ILLUSTRATE DIFFERENT IN-BUILT STRING FUNCTIONS.</string>
     <string name="programTitle25">TO FIND THE SECOND LARGEST NUMBER IN AN ARRAY.</string>
-    <string name="programTitle26">Setting up an ODBC Data Source.</string>
-    <string name="programTitle27">Connect using ODBC Data Sources.</string>
-    <string name="programTitle28">How to Create a SQL Server Database.</string>
-    <string name="programTitle29">jQuery element Selector.</string>
-    <string name="programTitle30">jQuery  #id Selector.</string>
-    <string name="programTitle31">jQuery .class Selector.</string>
-    <string name="programTitle32">jQuery Event Method : click().</string>
-    <string name="programTitle33">jQuery Effects - Hide and Show.</string>
-    <string name="programTitle34">jQuery Effects - jQuery toggle().</string>
-    <string name="programTitle35">Using AJAX: change this text program.</string>
-    <string name="programTitle36">An Example XML Document.</string>
-    <string name="programTitle37">Display XML Data in an HTML Page.</string>
 
 
     <string name="p1"><![CDATA[<html>\n<title> Font tag Example </title>\n<body>\n<font face=\"arial\" size=\"1\" color=\"blue\"> WELCOME </font> <br>\n <font size=\"2\" color=\"cyan\"> WELCOME </font> <br>\n <pre>\n This text uses pre tag and preserves nextline and spaces\n </pre>\n </body>\n </html>]]></string>
@@ -563,192 +551,6 @@
 \n</form>
 \n</body>
 \n</html>]]></string>
-    <string name="p26"><![CDATA[ Step 1: First, find the icon labeled Data Sources in the Administrative Tools folder in Control Panel.  (In Windows 98, it will be labeled ODBC Data Sources (32 bit) and will be present in the Control Panel.)
-\n\nStep 2: Click on the Data Sources Icon to start the setup process.  This will produce a window where we can add ODBC data sources.  If the System DSN tab is not selected, select it.  To add a data source, click the Add… button.
-\n\nStep 3: After clicking the Add button, a list of drivers will be presented which are used to create the data source.  Scroll down until you find the driver for the database to be accessed.  (In this case, SQL Server.)
-\n\nStep 4: In this case, we\'ll select SQL Server as the driver to use because we\'ll be connecting to a SQL Server database.  After selecting SQL Server from the list above, click the Finish button to specify how the connection will be made to the SQL Server database.
-\n\nStep 5: In order to make the connection to the database, the Name, Description, and Server name have to be specified.  (NOTE:  These values will be obtained from the database administrator.)  After entering the connection details, click the Next> button to specify how the database server will verify the authenticity of the login ID.
-\n\nStep 6: Now select the bottom radio button (With SQL Server authentication using) as the method used to authenticate.  Use the Login ID and Password obtained from the database administrator and then click the Next> button.  This will open a window to allow specification of the default database.
-\n\nStep 7: Check the checkbox next to "Change the default database to" and select the database as given by the database administrator.  Click the Next> button to open the next window.
-\n\nStep 8: When the window opens, just accept the defaults and click the Finish button.  This will produce another window with a summary of the settings for the data source.
-\n\nStep 9: Test the data source by clicking the Test Data Source button.  If everything works as expected, then the results window will appear.
-\n\nStep 10: When the test has been completed successfully, just click the OK button to close the window.  The ODBC data source has been successfully created.
-]]></string>
-    <string name="p27"><![CDATA[ Step 1: Once an ODBC data source has been created, it can be used by other programs (Access, PowerBuilder, etc) to gain access to database servers.  In Microsoft Access, go to the File menu and select Get External Data and choose Link Tables… from the resulting menu.
-\n\nStep 2: This action will produce a window which will allow you to choose the database with which to link.  For ODBC database, chooseODBC Databases from the Link window.
-\n\nStep 3: After choosing ODBC Databases, the Select Data Source window will open with a list of data sources.  Select the Machine Data Source tab to view installed data sources.  Select the data source to be used from this list.
-\n\nStep 4: When the appropriate data source is selected, click the OK button to connect to the database server.  A login prompt will appear and the login information supplied will be used here.
-\n\nStep 5: After successfully connecting to the database server (using a correct Login ID and Password), the Link Tables window will appear with a list of the tables available to choose from.  Select the tables to which you have access and click OK to start opening your tables.
-\n\nStep 6: The selected tables are now available through Microsoft Access.
-]]></string>
-    <string name="p28"><![CDATA[ ]]></string>
-    <string name="p29"><![CDATA[ <!DOCTYPE html>
-\n<html>
-\n<head>
-\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
-\n</script>
-\n<script>
-\n$(document).ready(function(){
-  \n$(\"button\").click(function(){
-    \n$(\"p\").hide();
-  \n});
-\n});
-\n</script>
-\n</head>
-\n<body>
-\n<h2>This is a heading</h2>
-\n<p>This is a paragraph.</p>
-\n<p>This is another paragraph.</p>
-\n<button>Click me</button>
-\n</body>
-\n</html>
-]]></string>
-    <string name="p30"><![CDATA[ <!DOCTYPE html>
-\n<html>
-\n<head>
-\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
-\n</script>
-\n<script>
-\n$(document).ready(function(){
-  \n$("button").click(function(){
-    \n$("#test").hide();
-  \n});
-\n});
-\n</script>
-\n</head>
-\n<body>
-\n<h2>This is a heading</h2>
-\n<p>This is a paragraph.</p>
-\n<p id=\"test\">This is another paragraph.</p>
-\n<button>Click me</button>
-\n</body>
-\n</html>
-]]></string>
-    <string name="p31"><![CDATA[ <!DOCTYPE html>
-\n<html>
-\n<head>
-\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
-\n</script>
-\n<script>
-\n$(document).ready(function(){
-  \n$(\"button\").click(function(){
-    \n$(\".test\").hide();
-  \n});
-\n});
-\n</script>
-\n</head>
-\n<body>
-\n<h2 class=\"test\">This is a heading</h2>
-\n<p class=\"test\">This is a paragraph.</p>
-\n<p>This is another paragraph.</p>
-\n<button>Click me</button>
-\n</body>
-\n</html>
-]]></string>
-    <string name="p32"><![CDATA[ <!DOCTYPE html>
-\n<html>
-\n<head>
-\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
-\n</script>
-\n<script>
-\n$(document).ready(function(){
-  \n$(\"p\").click(function(){
-    \n$(this).hide();
-  \n});
-\n});
-\n</script>
-\n</head>
-\n<body>
-\n<p>If you click on me, I will disappear.</p>
-\n<p>Click me away!</p>
-\n<p>Click me too!</p>
-\n</body>
-\n</html>
-]]></string>
-    <string name="p33"><![CDATA[<!DOCTYPE html>
-\n<html>
-\n<head>
-\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
-\n</script>
-\n<script>
-\n$(document).ready(function(){
-  \n$(\"#hide\").click(function(){
-    \n$(\"p\").hide();
-  \n});
-  \n$(\"#show\").click(function(){
-    \n$(\"p\").show();
-  \n});
-\n});
-\n</script>
-\n</head>
-\n<body>
-\n<p>If you click on the \"Hide\" button, I will disappear.</p>
-\n<button id=\"hide\">Hide</button>
-\n<button id=\"show\">Show</button>
-\n</body>
-\n</html>
- ]]></string>
-    <string name="p34"><![CDATA[ <!DOCTYPE html>
-\n<html>
-\n<head>
-\n<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js\">
-\n</script>
-\n<script>
-\n$(document).ready(function(){
-  \n$(\"button\").click(function(){
-    \n$(\"p\").toggle();
-  \n});
-\n});
-\n</script>
-\n</head>
-\n<body>
-\n<button>Toggle</button>
-\n<p>This is a paragraph with little content.</p>
-\n<p>This is another small paragraph.</p>
-\n</body>
-\n</html>
-]]></string>
-    <string name="p35"><![CDATA[<!DOCTYPE html>
-\n<html>
-\n<head>
-\n<script>
-\nfunction loadXMLDoc()
-\n{
-\nvar xmlhttp;
-\nif (window.XMLHttpRequest)
-  \n{// code for IE7+, Firefox, Chrome, Opera, Safari
-  \nxmlhttp=new XMLHttpRequest();
-  \n}
-\nelse
-  \n{// code for IE6, IE5
-  \nxmlhttp=new ActiveXObject(\"Microsoft.XMLHTTP\");
-  \n}
-\nxmlhttp.onreadystatechange=function()
-  \n{
-  \nif (xmlhttp.readyState==4 && xmlhttp.status==200)
-    \n{
-    \ndocument.getElementById(\"myDiv\").innerHTML=xmlhttp.responseText;
-    \n}
-  \n}
-\nxmlhttp.open(\"GET\",\"ajax_info.txt\",true);
-\nxmlhttp.send();
-\n}
-\n</script>
-\n</head>
-\n<body>
-\n<div id=\"myDiv\">
-\n<h2>Let AJAX change this text</h2></div>
-\n<button type=\"button\" onclick=\"loadXMLDoc()\">Change Content</button>
-\n</body>
-\n</html> ]]></string>
-    <string name="p36"><![CDATA[<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>
-\n<note>
-\n  <to>Tove</to>
-  \n<from>Jani</from>
-  \n<heading>Reminder</heading>
-  \n<body>Don\'t forget me this weekend!</body>
-\n</note>
- ]]></string>
 
 
     <string name="page1"><![CDATA[<html>\n<head>\n<title> Page1.html </title>\n</head>\n<body>\n<h1 align=\"center\"> Hello!!! This is a new chapter </h1>\n<a href=\"home.html\"> Go to home </a>\n</body>\n</html>]]></string>
@@ -788,12 +590,6 @@
  ]]></string>
     <string name="p282">h</string>
 
-    <string name="p28_1">Steps 1 Launch Visual Studio.\n2 Click on View</string>
-    <string name="p28_2">3 Right-Click where it says "Data Connections" and select "Create New SQL Server Database".</string>
-    <string name="p28_3">4 Enter ".\SQLEXPRESS" for the server name if you are using SQL Server Express. Otherwise, use any name.</string>
-    <string name="p28_4">5 Verify that "Use Windows Authentication" radio button is checked.</string>
-    <string name="p28_5">6 Click on "OK".</string>
-    <string name="p28_6">7 Add data into the tables and you\'re away.</string>
     <string name="img">image</string>
 
 
